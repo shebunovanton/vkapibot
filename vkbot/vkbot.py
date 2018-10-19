@@ -2,7 +2,7 @@ import vk_api
 from vk_api.longpoll import VkLongPoll, VkEventType
 
 
-login, password = '89531235933', 'Zigzagsel1488'
+login, password = 'login', 'pass'
 vk_session = vk_api.VkApi(login, password)
 vk_session.auth()
 vk = vk_session.get_api()
